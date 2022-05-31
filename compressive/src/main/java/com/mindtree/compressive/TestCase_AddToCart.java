@@ -7,7 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Testcase3 {
+public class TestCase_AddToCart {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -20,7 +20,7 @@ public class Testcase3 {
 		
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("(//input[@id='spree_user_email'])[2]")).click();
-		driver.findElement(By.xpath("(//input[@id='spree_user_email'])[2]")).sendKeys("shubhamnimbalkar12@gmail.com");
+		driver.findElement(By.xpath("(//input[@id='spree_user_email'])[2]")).sendKeys("shubhamnimbalkar@gmail.com");
 		driver.findElement(By.xpath("(//input[@id='spree_user_password'])[3]")).click();
 		driver.findElement(By.xpath("(//input[@id='spree_user_password'])[3]")).sendKeys("shubham@54321");
 		driver.findElement(By.xpath("//input[@id='ul_site_login']")).click();

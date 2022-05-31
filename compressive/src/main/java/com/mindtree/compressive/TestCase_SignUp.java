@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Testcase2 {
+public class TestCase_SignUp {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -18,7 +18,7 @@ public class Testcase2 {
 		driver.findElement(By.cssSelector("#spree_user_email")).click();
 		driver.findElement(By.cssSelector("#spree_user_email")).sendKeys("shubhamnimbalkar@gmail.com");
 		driver.findElement(By.xpath("(//input[@id='spree_user_password'])[2]")).click();
-		driver.findElement(By.xpath("(//input[@id='spree_user_password'])[2]")).sendKeys("shubham54321");
+		driver.findElement(By.xpath("(//input[@id='spree_user_password'])[2]")).sendKeys("shubham@54321");
 		
 		driver.findElement(By.xpath("(//input[@name='commit'])[2]")).click();
 		Thread.sleep(2000);
